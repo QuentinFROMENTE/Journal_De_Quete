@@ -9,6 +9,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "tinymce": "^6.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -16,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass":"sass --watch ./src/css/sass/main.scss:./src/css/css/style.css"
+    "sass": "sass --watch ./src/css/sass/main.scss:./src/css/css/style.css"
   },
   "eslintConfig": {
     "extends": [
@@ -38,7 +39,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
   "author": "Quentin FROMENTÉ",
   "license": "ISC"
 }
