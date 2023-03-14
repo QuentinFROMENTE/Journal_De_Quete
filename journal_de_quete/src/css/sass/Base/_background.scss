@@ -1,0 +1,24 @@
+.background--deep {
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: $background;
+    border: $border-large;
+    border-radius: $border-radius;
+
+    color: $text-color;
+
+    font-family: Reactor7;
+
+}
