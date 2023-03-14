@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 95%;
+    left: 5%;
+    &__link {
+        color: white;
+        text-decoration: none;
+    };
+}
