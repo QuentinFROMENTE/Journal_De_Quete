@@ -1,0 +1,26 @@
+.reception__logo {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 29%;
+    margin-top: 15%;
+}
+
+.reception__title {
+    font-size: 3rem;
+    display: inline-block;
+    width: 150px;
+    margin: auto;
+    margin-left: 29%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.reception__navigation {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+}
