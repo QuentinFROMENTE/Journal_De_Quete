@@ -8,9 +8,17 @@
     line-height: 5rem;
     font-size: 2.3rem;
     height: 5rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+
     &__navigation {
         text-decoration: none;
         color: white;
+
+        &--validation {
+            font-family: "Reactor7";
+            margin: auto;
+            margin-top: 10%;
+
+        }
     }
 }
