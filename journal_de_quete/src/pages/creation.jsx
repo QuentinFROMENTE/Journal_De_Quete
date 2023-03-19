@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import { CreateCookie, ReadCookie } from "../js/utils";
+import Utilisateur from "../js/cookie";
 
 export default function Creation() {
 
@@ -9,9 +10,20 @@ export default function Creation() {
     function AddProfil() {
         
         let player = playerName.current.value;
-        CreateCookie(player);
-        console.log(document.cookie);
-        console.log(ReadCookie());        
+
+        if (document.cookie) {
+            let cookie = JSON.parse(ReadCookie());
+            /*faire une vérification de l'inexistance du nouveau profil*/
+            
+            cookie.DATA.push(new Utilisateur(player));
+            CreateCookie(cookie);
+
+        } else {
+            let newSave = {DATA: [new Utilisateur(player)]};
+            let cookie = JSON.stringify(newSave);
+            CreateCookie(cookie);
+        }
+      
     }
 
     return (
