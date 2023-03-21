@@ -10,7 +10,7 @@ let Data = {
             }
         },
         {
-            "Name": "Utilateur2",
+            "Name": "Utilisateur2",
             "Game1": {
                 "Histoire Principal": {},
                 "Quêtes secondaire": {}
