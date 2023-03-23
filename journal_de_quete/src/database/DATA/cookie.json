@@ -1,0 +1,18 @@
+{
+    "Data" : [
+        {
+            "Name": "Utlisateur1",
+            "Game1": {
+                "Histoire Principal": {},
+                "Quêtes secondaire": {}
+            }
+        },
+        {
+            "Name": "Utilisateur2",
+            "Game1": {
+                "Histoire Principal": {},
+                "Quêtes secondaire": {}
+            }
+        }
+    ]
+}
