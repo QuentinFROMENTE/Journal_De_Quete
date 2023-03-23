@@ -1,0 +1,13 @@
+.alertbox {
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 3rem;
+
+    box-sizing: border-box;
+
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0), #6D14A2), #740C3D;
+    border: 5px solid #B6B6B6;
+    border-radius: 10px;
+
+    padding: 1rem;
+}
