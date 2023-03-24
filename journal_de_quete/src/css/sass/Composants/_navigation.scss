@@ -1,0 +1,20 @@
+.navigation {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+
+    &__text {
+        display: inline-block;
+        font-size: 2rem;
+        &--localization {
+            width: 70.2%;
+        }
+        &--backArrow{
+            font-size: 4rem;
+            margin: 4% 0 0 2%;
+        }
+        &--backArrow:hover {
+            cursor: pointer;
+        }
+    }
+}

@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import { CreateCookie, ReadCookie } from "../js/utils";
 import Utilisateur from "../js/cookie";
 import AlertBox from "../composants/alertBox";
+import NavigationShort from "../composants/navigationShort";
 
 export default function Creation() {
 
@@ -42,6 +43,7 @@ export default function Creation() {
 
     return (
         <>
+            <NavigationShort string="Création du profil"/>
             <form method="post" className="creation">
                 <label for="name">Nom de la Sauvegarde :</label>
                 <input type="text" id="name" name="user_name" className="creation__input" ref={playerName}/>
