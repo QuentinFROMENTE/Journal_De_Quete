@@ -4,13 +4,16 @@ import Logo from '../assets/icones/open-book.png';
 import Button from "../composants/button";
 import Footer from "../composants/footer";
 import { useState, useEffect } from "react";
+import { ReadCookie } from "../js/utils";
 
 export default function Acceuil() {
     const [isSaved, setIsSaved] = useState(false);
+    const [isNumberOfSaved, setIsNumberOfSaved] = useState(0);
 
     useEffect(() => {
         if (document.cookie) {
             setIsSaved(true);
+            setIsNumberOfSaved(ReadCookie().DATA.length);
         }
     },[]);
     
@@ -20,9 +23,11 @@ export default function Acceuil() {
             <p className="reception__title">Journal de Quêtes</p>
             <div className="reception__navigation">
                 {isSaved ? 
-                <Button strings="Charger un Profil" URL="LoadSave"/>
-                : null }
-                <Button strings="Nouveau Profil" URL="NewSave"/>
+                    <Button strings="Charger un Profil" URL="LoadSave"/>
+                    : null }
+                {isNumberOfSaved < 3 ?
+                    <Button strings="Nouveau Profil" URL="NewSave"/>
+                    : null}
             </div>
             <Footer/>
         </>
