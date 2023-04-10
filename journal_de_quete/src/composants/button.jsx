@@ -1,10 +1,9 @@
 import React from "react";
 import '../css/css/style.css';
 
-export default function Button(Props) {
-
+export default function Button(props) {
 
     return (
-            <a href={Props.URL} className="button button__navigation">{Props.strings}</a>
+            <a href={props.URL} className="button button__navigation">{props.strings}</a>
     )
 }

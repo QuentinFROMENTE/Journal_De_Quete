@@ -39,6 +39,7 @@ export default function Creation() {
             let cookie = {DATA: [new Utilisateur(player)]};
             CreateCookie(cookie);
         }
+        window.history.go(-1);
     }
 
     return (
