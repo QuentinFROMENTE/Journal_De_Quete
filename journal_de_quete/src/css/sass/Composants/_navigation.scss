@@ -1,20 +1,32 @@
 .navigation {
+    margin: auto;
     display: flex;
-    width: 90%;
-    justify-content: space-around;
+    height: 4.5rem;
 
     &__text {
-        display: inline-block;
         font-size: 2rem;
-        &--localization {
-            width: 70.2%;
+    }
+    &__localization {
+        margin: 4% 0 0 2%;
+    }
+    &__arrow{
+        image-rendering: pixelated;
+        width: 25px;
+        height: 25px;
+        margin: 12px 10px 0px 15px;
+        &--left{
+            rotate: 90deg;
         }
-        &--backArrow{
-            font-size: 4rem;
-            margin: 4% 0 0 2%;
+        &--right{
+            rotate:270deg;
         }
-        &--backArrow:hover {
-            cursor: pointer;
-        }
+    }
+    &__arrow:hover {
+        cursor: pointer;
+    }
+    &__gear {
+        image-rendering: pixelated;
+        height: 25px;
+        margin: 12px 0px 0px 50px;
     }
 }

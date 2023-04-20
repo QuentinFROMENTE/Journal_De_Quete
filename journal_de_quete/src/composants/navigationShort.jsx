@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/css/style.css';
+import arrowDownWhite from '../assets/icones/arrow-down-white-net.png';
 
 export default function NavigationShort(props) {
 
@@ -10,8 +11,8 @@ export default function NavigationShort(props) {
     return(
 
         <nav className='navigation'>
-            <p onClick={GoBack} className="navigation__text navigation__text--backArrow">&lt;</p>
-            <p className="navigation__text navigation__text--localization">{props.string}</p>
+            <img src={arrowDownWhite} onClick={GoBack} className="navigation__text navigation__arrow navigation__arrow--left" alt="précédente"/>
+            <p className="navigation__text navigation__localization">{props.string}</p>
         </nav>
     )
 }

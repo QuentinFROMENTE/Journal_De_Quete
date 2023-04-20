@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/css/style.css';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faGear } from '@fortawesome/free-solid-svg-icons';
+import arrowDownWhite from '../assets/icones/arrow-down-white-net.png';
+import settingsGear from '../assets/icones/settings-white.png';
 
 export default function NavigationLong(props) {
 
@@ -15,10 +15,10 @@ export default function NavigationLong(props) {
 
     return(
             <nav className='navigation'>
-                <p onClick={GoBack} className="navigation__text navigation__text--arrow">&lt;</p>
-                <p onClick={GoForward} className="navigation__text navigation__text--arrow">&gt;</p>
-                <p className="navigation__text navigation__text--localization">{props.string}</p>
-                <FontAwesomeIcon icon={faGear} className='navigation__gear' />
+                <img src={arrowDownWhite} onClick={GoBack} className="navigation__text navigation__arrow navigation__arrow--left" alt="précédente"/>
+                <img src={arrowDownWhite} onClick={GoForward} className="navigation__text navigation__arrow navigation__arrow--right" alt="suivante"/>
+                <p className="navigation__text navigation__localization">{props.string}</p>
+                <img src={settingsGear} className='navigation__gear' alt="paramètres"/>
             </nav>
     )
 }
