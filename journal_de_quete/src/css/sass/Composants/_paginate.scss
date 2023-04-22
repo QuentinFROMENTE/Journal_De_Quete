@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: 2.5%;
+    &__text {
+        list-style-type: none;
+        font-size: 1.5rem;
+        &:hover {
+            cursor: pointer;
+        }
+    &--active {
+        color: $text-color-secondary;
+    }
+    &--disabled {
+        color: $border-color;
+    }
+    }
+}
