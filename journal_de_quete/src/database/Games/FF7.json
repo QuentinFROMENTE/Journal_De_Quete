@@ -1,6 +1,6 @@
 {
-    "Final Fantasy VII": {
-      "Histoire Principale": {},
-      "Quêtes secondaires": {}
-    }
-  }
+  "name": "Final Fantasy VII",
+  "URL": "./FF7",
+  "histoirePrincipale": {},
+  "quetesSecondaires": {}
+}

@@ -1,6 +1,6 @@
 {
-    "Final Fantasy VIII": {
-      "Histoire Principale": {},
-      "Quêtes secondaires": {}
-    }
-  }
+  "name": "Final Fantasy VIII",
+  "URL": "./FF8",
+  "histoirePrincipale": {},
+  "quetesSecondaires": {}
+}

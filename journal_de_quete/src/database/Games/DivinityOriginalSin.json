@@ -1,6 +1,6 @@
 {
-    "Divinity : Original Sins": {
-      "Histoire Principale": {},
-      "Quêtes secondaires": {}
-    }
-  }
+  "name": "Divinity Original Sins",
+  "URL": "./DivinityOS",
+  "histoirePrincipale": {},
+  "quetesSecondaires": {}
+}

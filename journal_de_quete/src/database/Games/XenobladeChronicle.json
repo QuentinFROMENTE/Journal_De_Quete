@@ -1,6 +1,6 @@
 {
-    "Xenoblade Chronicles": {
-      "Histoire Principale": {},
-      "Quêtes secondaires": {}
-    }
-  }
+  "name": "Xenoblade Chronicle",
+  "URL": "./XenobladeChronicle",
+  "histoirePrincipale": {},
+  "quetesSecondaires": {}
+}

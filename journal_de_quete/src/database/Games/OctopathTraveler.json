@@ -1,6 +1,6 @@
 {
-    "Octopath Traveler": {
-      "Histoire Principale": {},
-      "Quêtes secondaires": {}
-    }
-  }
+  "name": "Octopath Traveler",
+  "URL": "./OctopathTraveler",
+  "histoirePrincipale": {},
+  "quetesSecondaires": {}
+}
