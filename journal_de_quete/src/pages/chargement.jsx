@@ -6,8 +6,8 @@ import NavigationShort from "../composants/navigationShort";
 
 export default function Chargement() {
         let profil = ReadCookie();
-        const listProfils = profil.DATA.map((profilName) => 
-            <Link to={profilName.name} className="button button__navigation loadSave__link">{profilName.name}</Link>
+        const listProfils = profil.DATA.map((profilName, index) => 
+            <Link to={`/${profilName.name}`} className="button button__navigation loadSave__link" key={index}>{profilName.name}</Link>
         );
 
     return (
