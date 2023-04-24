@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/css/style.css';
 import Logo from '../assets/icones/open-book.png';
-import Button from "../composants/button";
+import { Link } from "react-router-dom";
 import Footer from "../composants/footer";
 import { useState, useEffect } from "react";
 import { ReadCookie } from "../js/utils";
@@ -23,10 +23,10 @@ export default function Acceuil() {
             <p className="reception__title">Journal de Quêtes</p>
             <div className="reception__navigation">
                 {isSaved ? 
-                    <Button strings="Charger un Profil" URL="LoadSave"/>
+                    <Link to={"LoadSave"} className="button button__navigation">Charger un Profil</Link>
                     : null }
                 {isNumberOfSaved < 3 ?
-                    <Button strings="Nouveau Profil" URL="NewSave"/>
+                    <Link to={"NewSave"} className="button button__navigation">Nouveau Profill</Link>
                     : null}
             </div>
             <Footer/>

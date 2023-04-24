@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import '../css/css/style.css';
-import Button from '../composants/button';
 import ReactPaginate from 'react-paginate';
+import { Link, useParams } from "react-router-dom";
 
 export default function Games() {
-
+    const {profilName} = useParams();
     const  files = [];
     const context = require.context('../database/Games', false, /\.json$/); //merci ChatGPT
 
@@ -36,7 +36,7 @@ export default function Games() {
                 nextLabel={">"}
                 nextClassName={"container__text"}/>
                 {displayedGames.map((data, index) => {
-                    return <Button key={index} URL={data.URL} strings={data.name}/>
+                    return <Link to={`/${profilName}/${data.URL}`} key={index} className="button button__navigation">{data.name}</Link>
                 })}
             </>
     )
