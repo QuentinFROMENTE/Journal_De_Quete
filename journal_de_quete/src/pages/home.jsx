@@ -6,7 +6,7 @@ import Footer from "../composants/footer";
 import { useState, useEffect } from "react";
 import { ReadCookie } from "../js/utils";
 
-export default function Acceuil() {
+export default function Home() {
     const [isSaved, setIsSaved] = useState(false);
     const [isNumberOfSaved, setIsNumberOfSaved] = useState(0);
 

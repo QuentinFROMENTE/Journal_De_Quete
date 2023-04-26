@@ -1,11 +1,11 @@
 import React from "react";
 import { useRef, useState } from "react";
 import { CreateCookie, ReadCookie } from "../js/utils";
-import Utilisateur from "../js/cookie";
+import User from "../js/cookie";
 import AlertBox from "../composants/alertBox";
 import NavigationShort from "../composants/navigationShort";
 
-export default function Creation() {
+export default function CreatePage() {
 
     const playerName = useRef("");
     const [isAllReadyUsed, setIsAllReadyUsed] = useState(false);
@@ -31,12 +31,12 @@ export default function Creation() {
             if (isExist !== 0) {
                 setIsAllReadyUsed(true);
             } else {
-                cookie.DATA.push(new Utilisateur(player));
+                cookie.DATA.push(new User(player));
                 CreateCookie(cookie);
             }
 
         } else {
-            let cookie = {DATA: [new Utilisateur(player)]};
+            let cookie = {DATA: [new User(player)]};
             CreateCookie(cookie);
         }
         window.history.go(-1);
