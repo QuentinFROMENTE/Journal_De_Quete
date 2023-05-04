@@ -1,10 +1,12 @@
 {
   "name": "Final Fantasy VIII",
   "URL": "./FF8",
-  "histoirePrincipale": {
-    "titleType": "Histoire Principale"
-  },
-  "quetesSecondaires": {
-    "titleType": "Quêtes Secondaires"
+  "questList": {
+    "histoirePrincipale": {
+      "titleType": "Histoire Principale"
+    },
+    "quetesSecondaires": {
+      "titleType": "Quêtes Secondaires"
+    }
   }
 }

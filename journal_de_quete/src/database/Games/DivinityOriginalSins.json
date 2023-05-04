@@ -1,10 +1,14 @@
 {
   "name": "Divinity Original Sins",
   "URL": "./DivinityOriginalSins",
-  "histoirePrincipale": {
-    "titleType": "Histoire Principale"
-  },
-  "quetesSecondaires": {
-    "titleType": "Quêtes Secondaires"
+  "questList": {
+    "histoirePrincipale": {
+      "URL": "./histoireprincipale",
+      "titleType": "Histoire Principale"
+    },
+    "quetesSecondaires": {
+      "URL": "questessecondaires",
+      "titleType": "Quêtes Secondaires"
+    }
   }
 }

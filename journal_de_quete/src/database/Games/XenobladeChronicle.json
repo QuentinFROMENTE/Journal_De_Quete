@@ -1,10 +1,14 @@
 {
   "name": "Xenoblade Chronicle",
   "URL": "./XenobladeChronicle",
-  "histoirePrincipale": {
-    "titleType": "Histoire Principale"
-  },
-  "quetesSecondaires": {
-    "titleType": "Quêtes Secondaires"
+  "questList": {
+    "histoirePrincipale": {
+      "URL": "./histoirePrincipale",
+      "titleType": "Histoire Principale"
+    },
+    "quetesSecondaires": {
+      "URL": "./quetessecondaire",
+      "titleType": "Quêtes Secondaires"
+    }
   }
 }

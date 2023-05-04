@@ -1,10 +1,12 @@
 {
   "name": "Final Fantasy VII",
   "URL": "./FF7",
-  "histoirePrincipale": {
-    "titleType": "Histoire Principale"
-  },
-  "quetesSecondaires": {
-    "titleType": "Quêtes Secondaires"
+  "questList": {
+    "histoirePrincipale": {
+      "titleType": "Histoire Principale"
+    },
+    "quetesSecondaires": {
+      "titleType": "Quêtes Secondaires"
+    }
   }
 }
