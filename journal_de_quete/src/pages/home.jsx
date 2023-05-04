@@ -26,7 +26,7 @@ export default function Home() {
                     <Link to={"LoadSave"} className="button button__navigation">Charger un Profil</Link>
                     : null }
                 {isNumberOfSaved < 3 ?
-                    <Link to={"NewSave"} className="button button__navigation">Nouveau Profill</Link>
+                    <Link to={"NewSave"} className="button button__navigation">Nouveau Profil</Link>
                     : null}
             </div>
             <Footer/>
