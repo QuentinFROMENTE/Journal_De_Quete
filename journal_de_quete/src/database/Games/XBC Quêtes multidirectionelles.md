@@ -7,3 +7,6 @@ Quêtes pluri-directionelles à explorer :
  - Pour changer l'histoire : faire la quête sans prendre la quête affilier "Arda à la rescousse"
 # Chapitre 7
  - Le défi du capitaine : Choisir la lame nopone (Carbo-bouclier déjà faite)
+ - La réponse de Marina : Raporter une Mauvaise Herbe du Marais Satorl (Goutte du Lac de la Jambe de Bionis déjà faite)
+ - Le nopon séduisant : Aller voir Lupa (Pepa déjà faite)
+ - Querelle familiale : Donner l'Orbe de Pollen Roux à Jiroque (Zukazu déjà fait)
