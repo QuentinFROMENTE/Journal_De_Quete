@@ -17,8 +17,8 @@ Quêtes pluri-directionelles à explorer :
  - Qui sera plus grand ? : Choisir Dabidabi ou lieu de Adidi (Adidi déjà fait)
 
 # Colon Colonie 6
- - Choisir entre Eanne et Zaelle Argentis à Alcamoth
+ - ChoisirZaelle Argentis à Alcamoth (Eanne déjà fait)
  - Choisir Mefimefi à la Colonie 9 (Perrine dékà fait)
- - Choisir entre Gowago et Minana au Village Frontière
+ - Choisir Minana au Village Frontière (Gowago déjà fait)
 
  - Miss Colonie 6 : Donner la fleur de glace à Confifraise (Maelisa déjà fait)
