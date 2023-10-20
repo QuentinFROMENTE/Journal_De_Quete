@@ -2,8 +2,6 @@ Quêtes pluri-directionelles à explorer :
 # Chapitre 3
  - L'avenir de Désirée : Choisir son avenir de Scultrice (soldat déjà fait)
  - Le réveil de Jackson : Aller parler à Giorgio de Jackson au lieu de Kenny Rohan
- - S'épuiser pour pas un rond : Raisonner Giorgio dès la prise de la quête (discution avec sa fille déjà faite).
- - Prévisions budgétaires : Parler à Léopold dès la prise de la quête (discution avec Sylviane déjà faite).
 # Chapitre 4
  - Le destin de la lueur : Choisir de jeter le cylindre (dès la prise de quête)
  - Pour changer l'histoire : faire la quête sans prendre la quête affilier "Arda à la rescousse"
@@ -16,8 +14,11 @@ Quêtes pluri-directionelles à explorer :
  - Le successeur : Choisir Gadada au lieu de Cherri (Cherri déjà fait)
  - Qui sera plus grand ? : Choisir Dabidabi ou lieu de Adidi (Adidi déjà fait)
 
+# Chapitre 17
+ - L'inquiètude d'un poète : faire le 2e choix à la prise de quête auprs de Juliel
+
 # Colon Colonie 6
- - ChoisirZaelle Argentis à Alcamoth (Eanne déjà fait)
+ - Choisir Zaelle Argentis à Alcamoth (Eanne déjà fait)
  - Choisir Mefimefi à la Colonie 9 (Perrine dékà fait)
  - Choisir Minana au Village Frontière (Gowago déjà fait)
 
