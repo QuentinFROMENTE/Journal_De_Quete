@@ -1,3 +1,4 @@
 /journal_de_quete/node_modules
 /journal_de_quete/src/assets/maps/Xenoblade Chronicles/*
 !/journal_de_quete/src/assets/maps/Xenoblade Chronicles/*.webp
+!/journal_de_quete/src/assets/maps/Xenoblade Chronicles/*.md
